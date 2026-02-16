@@ -48,7 +48,7 @@ This engine reads \*\*JSONL\*\*: one valid JSON object per line.
 
 ## Screenshots
 
-![Run Output](Screenshot%20(154).png)
+![Run Output](Screenshot%20(152).png)
 
 
 Example (`sample.jsonl`):
