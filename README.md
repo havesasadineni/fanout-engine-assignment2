@@ -46,6 +46,9 @@ Producer (file reader) → fan-out → per-sink bounded queue → worker threads
 
 This engine reads \*\*JSONL\*\*: one valid JSON object per line.
 
+## Screenshots
+
+![Run Output](Screenshot%20(154).png)
 
 
 Example (`sample.jsonl`):
