@@ -1,0 +1,5 @@
+{"user":"u1","action":"login","ts":1700000001}
+{"user":"u2","action":"buy","ts":1700000002,"amount":19.99}
+{"user":"u3","action":"logout","ts":1700000003}
+{"user":"u4","action":"search","ts":1700000004,"q":"laptop"}
+{"user":"u5","action":"buy","ts":1700000005,"amount":199.00}

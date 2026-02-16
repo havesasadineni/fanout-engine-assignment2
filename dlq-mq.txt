@@ -1,0 +1,1 @@
+{"user":"u4","action":"search","ts":1700000004,"q":"laptop"}

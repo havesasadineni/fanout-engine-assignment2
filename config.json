@@ -1,0 +1,13 @@
+{
+  "inputPath": "big.jsonl",
+  "maxRetries": 3,
+  "statsEverySeconds": 1,
+  "sinks": [
+    { "type": "REST",       "workers": 4, "rateLimitPerSec": 200, "queueCapacity": 5000, "failureRate": 0.01 },
+    { "type": "GRPC",       "workers": 4, "rateLimitPerSec": 300, "queueCapacity": 5000, "failureRate": 0.01 },
+
+    { "type": "MQ",         "workers": 4, "rateLimitPerSec": 500, "queueCapacity": 5000, "failureRate": 0.60 },
+
+    { "type": "WIDECOLUMN", "workers": 6, "rateLimitPerSec": 800, "queueCapacity": 8000, "failureRate": 0.01 }
+  ]
+}
